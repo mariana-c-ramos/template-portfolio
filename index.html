@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my take on a simple portfolio, only using HTML and CSS">
+    <meta name="keywords" content="portfolio, web portfolio, html, css, sass, web-development, front-end">
+    <title>Mary's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="/app/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero" id="hero">
+        <nav>
+            <h2 class="logo">mi<span>ANA</span></h2>
+            <ul class="navbar__menu">
+                <li><a href="#hero" class="navbar__item">Home</a></li>
+                <li><a href="#about" class="navbar__item">About Me</a></li>
+                <li><a href="#projects" class="navbar__item">Projects</a></li>
+                <li><a href="#skills" class="navbar__item">Skills (Soon!)</a></li>
+                <li><a href="#contact" class="navbar__item">Let's Talk</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h4>Hello, my name is</h4>
+            <h1>Mariana Ramos</h1>
+            <h3>I am a Front-end Developer looking for an oportunity to shine on your team!</h3>
+        </div>
+    </div>
+
+    <!--About Me Section-->
+    <section class="about" id="about">
+        <div class="main">
+            <img src="/assets/img/main-image.png" alt="a doodle of me" class="my__photo">
+            <div class="about__text">
+                <h2>About Me</h2>
+                <h5>Marketeer & Front-end Developer</h5>
+                <p>Hello everybody! I worked as a Digital Account Manager for 2 years and a half, and it was then that I got very curious about the IT area.</p>
+                <p>Since September 2021 I started my carrer in this area and currently I'm doing a Codecademy's course in Front-end Engeneering, while developing small projects on the side to train my skills!</p>
+                <p class="final-line">I hope you enjoy my personal projects and if you would like to work with me, reach out to me on any platform bellow:</p>
+                <div class="social-buttons">
+                    <a href="https://www.linkedin.com/in/mariana-c-ramos/" target="_blank"><button type="button-in">LINKEDIN</button></a>
+                    <a href="https://github.com/mariana-c-ramos" target="_blank"><button type="button-git">GITHUB</button></a>
+                    <a href="https://www.figma.com/@marianacarvalho" target="_blank"><button type="button-figma">FIGMA</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects Section-->
+    <section class="projects" id="projects">
+
+        <div class="project__title">
+            <h2>My Projects</h2>
+        </div>
+
+        <div class="project__box--1">
+            <div class="project__card project__card--1">
+                <i class="fas fa-pencil-ruler"></i>
+                <h5>My Portfolio</h5>
+                <img src="/assets/proj-img/my-portfolio-snippet.png" alt="A snippet of my portfolio" class="project__card--snippet">
+                <div class="project__description project__description--1">
+                    <p class="project-tools">HTML, CSS, Sass</p>
+                    <p>A simple portfolio, with the typical sections. Created to train basic skills and to have a place to show my projects.
+                    </p>
+                </div>
+                <div class="project__links">
+                    <a class="project__links project__link--page" href="#" target="_blank">
+                        <i class="fas fa-desktop"></i>
+                    </a>
+
+                    <a class="project__links project__link--code" href="#" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project__card project__card--2">
+                <i class="fas fa-pencil-ruler"></i>
+                <h5>Spicy Kiwi Store</h5>
+                <img src="/assets/proj-img/kiwi-snippet.png" alt="A snippet of my project about a kiwi store" class="project__card--snippet">
+                <div class="project__description project__description--2">
+                    <p class="project-tools">HTML, CSS, Sass</p>
+                    <p>A page with spicy kiwis for sale - why not? Created to test Sass in a more complex way.</p>
+                </div>
+                <div class="project__links">
+                    <a class="project__links project__link--page" href="https://mariana-c-ramos.github.io/spicy-kiwi-store/" target="_blank">
+                        <i class="fas fa-desktop"></i>
+                    </a>
+
+                    <a class="project__links project__link--code" href="https://github.com/mariana-c-ramos/spicy-kiwi-store" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project__card project__card--3">
+                <i class="fas fa-pencil-ruler"></i>
+                <h5>Mary's Bot</h5>
+                <img src="/assets/proj-img/mary-bot-snippet.png" alt="A snippet of my project about a bot" class="project__card--snippet">
+                <div class="project__description project__description--3">
+                    <p class="project-tools">HTML, CSS</p>
+                    <p>This is a project done by Rafaela Ballerini, and this is my version of her bot page. Created to test basic skills.</p>
+                </div>
+                <div class="project__links">
+                    <a class="project__links project__link--page" href="https://mariana-c-ramos.github.io/mary-nice-bot/" target="_blank">
+                        <i class="fas fa-desktop"></i>
+                    </a>
+
+                    <a class="project__links project__link--code" href="https://github.com/mariana-c-ramos/mary-nice-bot" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project__box--2">
+            <div class="project__card project__card--4">
+                <i class="fas fa-pencil-ruler"></i>
+                <h5>Coming Soon</h5>
+                <div class="project__description project__description--4">
+                    <p>This should be a brief description of the project, with a clear presentation of what it is, that can only occupy, maximum, 2 lines!!!</p>
+                </div>
+                <div class="project__links">
+                    <a class="project__links project__link--page" href="https://fontawesome.com/v5.15/icons/desktop?style=solid" target="_blank">
+                        <i class="fas fa-desktop"></i>
+                    </a>
+
+                    <a class="project__links project__link--code" href="https://fontawesome.com/v5.15/icons/desktop?style=solid" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project__card project__card--5">
+                <i class="fas fa-pencil-ruler"></i>
+                <h5>Coming Soon</h5>
+                <div class="project__description project__description--5">
+                    <p>This should be a brief description of the project, with a clear presentation of what it is, that can only occupy, maximum, 2 lines!!!</p>
+                </div>
+                <div class="project__links">
+                    <a class="project__links project__link--page" href="https://fontawesome.com/v5.15/icons/desktop?style=solid" target="_blank">
+                        <i class="fas fa-desktop"></i>
+                    </a>
+
+                    <a class="project__links project__link--code" href="https://fontawesome.com/v5.15/icons/desktop?style=solid" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project__card project__card--6">
+                <i class="fas fa-pencil-ruler"></i>
+                <h5>Coming Soon</h5>
+                <div class="project__description project__description--6">
+                    <p>This should be a brief description of the project, with a clear presentation of what it is, that can only occupy, maximum, 2 lines!!!</p>
+                </div>
+                <div class="project__links">
+                    <a class="project__links project__link--page" href="https://fontawesome.com/v5.15/icons/desktop?style=solid" target="_blank">
+                        <i class="fas fa-desktop"></i>
+                    </a>
+
+                    <a class="project__links project__link--code" href="https://fontawesome.com/v5.15/icons/desktop?style=solid" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>  
+
+    </section>
+
+    <!--Contact Section-->
+    <div class="contact-me" id="contact">
+        <p>Let's work together and build amazing projects!</p>
+        <a href="#" class="btn">Hire Me</a>
+    </div>
+
+    <!--Footer Section-->
+    <footer>
+        <h6>Made with &#129505; by Mariana Ramos, 2022</h6>
+    </footer>
+
+</body>
+
+</html>
