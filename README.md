@@ -1,7 +1,7 @@
 # My Portfolio
 
-**OVERVIEW:** developed a small and simple portfolio, to have a place to expose my own projects.
-**TOPICS STUDIED:** classes, pseudo-classes, media queries, responsiveness, sass files, variables.
+**OVERVIEW:** developed a small and simple portfolio, to have a place to expose my own projects.<br>
+**TOPICS STUDIED:** html structure, classes' naming best practices, flexbox, css variables.
 
 What did I used to do this project:
 1. Figma
