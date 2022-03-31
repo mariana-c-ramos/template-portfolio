@@ -1,6 +1,6 @@
-# My Portfolio
+# Simple Portfolio
 
-**OVERVIEW:** developed a small and simple portfolio, to have a place to expose my own projects.<br>
+**OVERVIEW:** developed a small and simple portfolio.<br>
 **TOPICS STUDIED:** html structure, classes' naming best practices, flexbox, css variables.
 
 What did I used to do this project:
